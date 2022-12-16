@@ -1,0 +1,35 @@
+.df{
+    display: flex;
+    justify-content: space-between;
+}
+.text-67-w{
+    font-weight: bold;
+    color: white;
+    font-size: 67px;
+
+}
+.text-67-o{
+    color: #e58f00;
+    font-size: 67px;
+    font-weight: bold;
+}
+.text-27-w{
+    font-weight: bold;
+    color: white;
+    font-size: 27px;
+}
+.p-a{
+    position: absolute;
+}
+.p-r{
+    position: relative;
+}
+.z-1{
+    z-index: 1;
+}
+.z-2{
+    z-index: 2;
+}
+.z-3{
+    z-index: 3;
+}

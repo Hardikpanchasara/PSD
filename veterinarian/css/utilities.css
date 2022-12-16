@@ -1,0 +1,7 @@
+.df{
+    display: flex;
+    justify-content: space-between;
+}
+.row{
+    align-items: center;
+}

@@ -13,9 +13,8 @@
     width: 1200px;
     margin: 0 auto;
 }
-.row{
-    display: flex;
-    justify-content: space-between;
+.row-1{
+    
     line-height: 90px;
     font-size: x-large;
     font-family: 'Poppins', sans-serif;
@@ -32,7 +31,6 @@
 }
 .home-list ul li a{
     text-decoration: none;
-    color:#fff;
     padding: 30px 25px 30px 25px;
 }
 .home-list ul li a:hover{
@@ -40,19 +38,19 @@
 }
 .search-bar i{
     background-color: #00bec9;
-    color: #fff;
     padding: 5px;
     vertical-align: middle;
+    border-radius: 0px 10px 10px 0px;
     
 }
 .search-bar input{
     vertical-align: middle;
     line-height: 2;
     background-color: #fcc302;
-    color: #fff;
     font-size: medium;
     border: none;
     outline: none;
+    border-radius: 10px 0px 0px 10px;
 }
 .search-bar input:focus{
     border: 1px solid  #00bec9;
@@ -60,20 +58,9 @@
 .sec-two{
     background-color: #fcc302;
 }
-.row-2{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.col-1{
-    color: #fff;
-    
-
-}
 .col-1>h2{
     font-size: 67px;
     font-weight: 800;
-    
 }
 .col-1>p{
     font-size: 27px;
@@ -85,7 +72,7 @@ button{
     font-size: medium;
     font-weight: 600;
     border-radius: 7px;
-    color: #fff;
+    
 }
 .bt-1{
     background-color: #00bec9;
@@ -98,4 +85,10 @@ button{
 }
 .col-2{
     margin-top: 50px;
+}
+.row-3 .col-1 h2,p,button{
+    color: black;
+}
+.row-3 .box{
+    background-color: #fcc302;
 }
