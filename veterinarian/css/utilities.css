@@ -2,6 +2,36 @@
     display: flex;
     justify-content: space-between;
 }
-.row{
+.ac{
     align-items: center;
+}
+.text-67-w{
+    font-size: 67px;
+    color: white;
+    font-weight: bold;
+}
+.text-27-w{
+    font-size: 27px;
+    font-weight: bold;
+    color: white;
+}
+.text-67-b{
+    font-size: 67px;
+    color: black;
+    font-weight: bold;
+}
+.text-27-b{
+    font-size: 27px;
+    font-weight: bold;
+    color: black;
+}
+.col-50{
+    width: 50%;
+}
+.col-60{
+    width: 60%;
+
+}
+.col-40{
+    width: 40%;
 }

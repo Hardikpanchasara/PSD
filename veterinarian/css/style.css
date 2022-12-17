@@ -3,11 +3,9 @@
     margin: 0;padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    color: #fff;
 }
 .sec-one{
     background-color: #daac00;
-    
 }
 .container{
     width: 1200px;
@@ -32,6 +30,7 @@
 .home-list ul li a{
     text-decoration: none;
     padding: 30px 25px 30px 25px;
+    color: white;
 }
 .home-list ul li a:hover{
     background-color: #fcc302;
@@ -39,6 +38,7 @@
 .search-bar i{
     background-color: #00bec9;
     padding: 5px;
+    color: white;
     vertical-align: middle;
     border-radius: 0px 10px 10px 0px;
     
@@ -47,6 +47,7 @@
     vertical-align: middle;
     line-height: 2;
     background-color: #fcc302;
+    color: white;
     font-size: medium;
     border: none;
     outline: none;
@@ -58,20 +59,16 @@
 .sec-two{
     background-color: #fcc302;
 }
-.col-1>h2{
-    font-size: 67px;
-    font-weight: 800;
+.row-2{
+    padding: 50px 0px;
 }
-.col-1>p{
-    font-size: 27px;
-    font-weight: 600;
-}
-button{
+.bt{
     padding: 10px;
     margin: 20px 20px 0px 0px;
     font-size: medium;
     font-weight: 600;
     border-radius: 7px;
+    color: white;
     
 }
 .bt-1{
@@ -83,12 +80,21 @@ button{
     background-color: #fcc302;
     border: 2px solid white;
 }
-.col-2{
-    margin-top: 50px;
-}
-.row-3 .col-1 h2,p,button{
-    color: black;
-}
-.row-3 .box{
+
+
+.sec-three .box{
     background-color: #fcc302;
+    height: 206px;
+    width: 252px;
+    position: absolute;
+    top: 1500px;
+    right: 200px;
+}
+.row-3{
+    padding: 50px 0px;
+    margin: 50px 0px;
+}
+.c-3-2 iframe{
+    width: 100%;
+    
 }
