@@ -6,9 +6,19 @@
     align-items: center;
 }
 .text-67-w{
-    font-size: 67px;
+    font-size: 60px;
     color: white;
     font-weight: bold;
+}
+.text-38-w{
+    font-size: 38px;
+    color: white;
+    font-weight: bold;
+}
+.text-24-w{
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
 }
 .text-27-w{
     font-size: 27px;
@@ -30,8 +40,49 @@
 }
 .col-60{
     width: 60%;
-
 }
 .col-40{
     width: 40%;
 }
+.col-30{
+    width: 30%;
+}
+.col-25{
+    width: 25%;
+}
+.card-text-1{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin: 20px 0;
+}
+.card-text-2{
+    font-weight: bold;
+    color: white;
+    margin: 20px 0;
+}
+.card-text-3{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin: 20px 0;
+}
+.card-text-4{
+    font-size: 35px;
+    font-weight: bolder;
+    color: black;
+    margin: 20px 0;
+}
+.card-text-5{
+    font-weight: bolder;
+    color: black;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.card-text-8 p{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin: 20px auto;
+}
+

@@ -64,37 +64,176 @@
 }
 .bt{
     padding: 10px;
-    margin: 20px 20px 0px 0px;
     font-size: medium;
     font-weight: 600;
     border-radius: 7px;
     color: white;
-    
 }
 .bt-1{
     background-color: #00bec9;
     border: none;
-    
+    margin: 20px 20px 0px 0px;
 }
 .bt-2{
     background-color: #fcc302;
     border: 2px solid white;
+    margin: 20px 20px 0px 0px;
 }
 
-
-.sec-three .box{
+.sec-three{
+    position: relative;
+}
+.r-3-box{
     background-color: #fcc302;
     height: 206px;
     width: 252px;
     position: absolute;
-    top: 1500px;
-    right: 200px;
+    top: 220px;
+    right: 300px;
+    z-index: -1;
 }
 .row-3{
     padding: 50px 0px;
     margin: 50px 0px;
 }
-.c-3-2 iframe{
+.r-3-2 iframe{
     width: 100%;
-    
+}
+
+.sec-four{
+    background-color: #fcc302;
+}
+.row-4{
+    text-align: center;
+}
+.r-4-1{
+    padding: 50px 0 0 0;
+}
+.r-4-2{
+    padding: 0px 80px;
+    margin: 50px 0 ;
+}
+.card-m{
+    padding-bottom: 50px;
+}
+
+.sec-five{
+    position: relative;
+}
+.r-5-box{
+    background-color: #fcc302;
+    height: 206px;
+    width: 252px;
+    position: absolute;
+    top: 220px;
+    left: 300px;
+    z-index: -1;
+}
+.row-5{
+    padding: 50px 0px;
+    margin: 50px 0px;
+}
+.r-5-1 iframe{
+    width: 100%;
+}
+.r-5-2 p{
+    text-align: right;
+}
+.bt-3{
+    background-color: #fcc302;
+    border: 2px solid white;
+    margin: 20px 0px 0px 0px;
+}
+.r-5-3{
+    display: flex;
+    justify-content: end;
+}
+
+.r-6-bt button{
+    padding: 10px 20px;
+    background-color: #00bec9;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    color: white;
+    font-size: large;
+}
+.card-text-3{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin: 20px 0;
+}
+
+.sec-six{
+    background-color: #fcc302;
+}
+
+.row-7{
+    text-align: center;
+    margin: 50px 0;
+}
+.icon{
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.icon ul li{
+    display: inline;
+}
+.icon ul li a{
+    text-decoration: none;
+    color: #fcc302;
+    padding: 20px 10px;
+}
+
+.sec-eight{
+    background: linear-gradient(rgba(252,195,2,0.8392156862745098),rgba(252,195,2,0.8392156862745098)),url(../img/row-8-back.png);
+    background-size: cover;
+}
+.row-8{
+    padding: 80px;
+}
+.card-8{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.ft{
+    background-color: #343434;
+}
+.ft-list ul li{
+    list-style-type: none;
+}
+.ft-list ul li a{
+    text-decoration: none;
+    color: white;
+}
+.row-10{
+    display: flex;
+    padding: 50px 0;
+}
+.ft-icon{
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+.ft-icon ul li{
+    display: inline;
+}
+.ft-icon ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 10px;
+}
+.row-10 .col-40 div{
+    text-align: right;
+}
+.search-bar i{
+    font-size: x-large;
+}
+.ft-s{
+    margin: 20px 0;
 }
