@@ -37,7 +37,6 @@ header a{
     display: flex;
     align-items: center;
 }
-
 .hover{
     background-color: rgba(128,128,128,0.3);
     position: absolute;
@@ -87,7 +86,6 @@ header a{
     left: 0px;
     width: 70px;
 }
-
 .mhe a:nth-child(2):hover ~ .hover{
     opacity: 1;
     left: 70px;
@@ -101,7 +99,7 @@ header a{
 }
 
 .sec{
-    width: 100%;
+    min-width: 100%;
     min-height: 100vh;
 }
 .sec-1{
@@ -139,55 +137,52 @@ header a{
     background-size: cover;
     background-position: center ;
 }
-.row-1{
+.row{
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     min-height: 100%;
-    position: relative;
     text-align: center;
 }
-.up{
-    position: absolute;
-    top: 100px;
+.empty-1{
+    min-width: 50vw;
+    min-height: 15vh;
 }
-.down{
-    position: absolute;
-    top: 550px;
+.empty-2{
+    min-width: 50vw;
+    min-height: 45vh;
 }
 .text-1-1{
     font-size: 50px;
     font-weight: 600;
-    animation: up 1s ease-in ;
+    animation: up 2s ease-out ;
 }
 .text-1-2{
     text-decoration: underline;
     text-underline-position: under;
-    animation: up 2s ease-in ;
+    animation: up 3s ease-out ;
 }
 .text-1-2:hover{
-    text-decoration-thickness: 3px;
+    text-decoration-thickness: 2px;
 }
 .bt{
     display: inline-block;
     padding: 10px;
     margin: 40px 10px;
     border-radius: 5px;
+    font-weight: 600;
+    width: 300px;
 }
 .bt-1{
     background-color: rgb(53, 53, 53);
-    font-weight: 600;
-    width: 20vw;
-    animation: bt-1 1s ease-in;
+    animation: bt-1 2s ease-in;
 }
 .bt-1 a{
     color: #fff;
 }
 .bt-2{
     background-color: #fff;
-    font-weight: 600;
-    width: 20vw;
-    animation: bt-2 1s ease-in;
+    animation: bt-2 2s ease-in;
 }
 .arrow{
     font-size: 2em;
@@ -256,4 +251,40 @@ header a{
     padding: 5px 10px;
     font-size: 14px;
     font-weight: 500;
+}
+
+@media screen and (max-width:1250px) {
+    .mhm{
+        display: none;
+    }
+    .mhe a:nth-child(1){
+        display: none;
+    }
+    .mhe a:nth-child(2){
+        display: none;
+    }
+}
+@media screen and (max-width:800px) {
+    .bt{
+        width: 200px;
+    }
+    .ft-list ul li:nth-child(6){
+        display: none;
+    }
+    .ft-list ul li:nth-child(7){
+        display: none;
+    }
+    .ft-list ul li:nth-child(8){
+        display: none;
+    }
+    .ft-list ul li{
+        display: block;
+        margin: 10px 0;
+    }
+}
+@media screen and (max-width:600px) {
+    .bt{
+        width: 90vw;
+        margin: 10px;
+    }
 }
