@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website using by bootstrap</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- fixed navbar start -->
+
+    <nav class="navbar fixed-top navbar-expand-lg bg-success text-white">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="index.html">Navbar</a>
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- fixed navbar end -->
+    <div class="fix-div"></div>
+    <!-- Carousel start  -->
+
+    <header>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://source.unsplash.com/random/?Nature/" class="d-block w-100 h-100 " alt="images">
+                    <div class="carousel-caption d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://source.unsplash.com/random/?Animal/" class="d-block w-100 h-100" alt="images">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://source.unsplash.com/random/?Vehicle/" class="d-block w-100 h-100" alt="images">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- carousel end -->
+    <!-- about section start -->
+
+    <section class="main_heading my-5 ">
+        <div class="container ">
+            <div>
+                <h2 class="text-center display-4">About Us</h2>
+                <hr class="w-25 mx-auto" />
+            </div>
+            <div>
+                <div class="row my-5 ">
+                    <div class="col-xxl-6 col-lg-6 col-md-6 col-12">
+                        <figure>
+                            <img src="https://source.unsplash.com/random/?about/" class="img-fluid about-img"
+                                alt="about-img">
+                        </figure>
+                    </div>
+                    <div
+                        class="col-xxl-6 col-lg-6 col-md-6 col-12 d-flex flex-column align-items-start justify-content-center">
+                        <h1>My Journey</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, dolores, amet est omnis
+                            reprehenderit non ab nulla accusamus ipsum reiciendis asperiores! Nobis aperiam est vel,
+                            soluta cupiditate ratione eaque mollitia eos neque perferendis rem debitis vero cum
+                            perspiciatis eum minus?</p>
+                        <button type="button" class="btn btn-outline-info" data-bs-toggle="tooltip"
+                            data-bs-placement="right" data-bs-title="hiii">Check More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- about section end -->
+    <!-- services section start  -->
+
+    <section class="main_heading py-5 bg-light ">
+        <div class="container">
+            <div class="my-5">
+                <h2 class="text-center display-4">Services</h2>
+                <hr class="w-25 mx-auto" />
+            </div>
+            <div class="services row my-5">
+                <div class="col-md-4 col-10 mx-auto">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0 ">
+                            <div class="col-md-4">
+                                <img src="https://source.unsplash.com/random/?Services/"
+                                    class="img-fluid rounded-start " style="object-fit: cover; min-height: 100%;"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-10 mx-auto">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0 ">
+                            <div class="col-md-4">
+                                <img src="https://source.unsplash.com/random/?Services/"
+                                    class="img-fluid rounded-start " style="object-fit: cover; min-height: 100%;"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-10 mx-auto">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0 ">
+                            <div class="col-md-4">
+                                <img src="https://source.unsplash.com/random/?Services/"
+                                    class="img-fluid rounded-start " style="object-fit: cover; min-height: 100%;"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center my-5 ">
+                <button type="button" class="btn btn-outline-info" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Check More</button>
+            </div>
+        </div>
+    </section>
+    <!-- services section end  -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Services</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    If you want know our services , please checkout this!
+                </div>
+                <div class="modal-footer">
+                    <a href="#" target="_blank"><button type="button" class="btn btn-secondary"
+                            data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Checkout</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal end  -->
+
+    <!-- Gallery section start  -->
+
+    <section class="main_heading my-5 ">
+        <div class="container">
+            <div class="my-5">
+                <h2 class="text-center display-4">Gallery</h2>
+                <hr class="w-25 mx-auto" />
+            </div>
+            <div class="row gy-2 shadow p-3 mb-5 bg-body rounded">
+                <div class="col-12 col-md-4">
+                    <figure>
+                        <img src="https://source.unsplash.com/random/?Gallery/" alt="gallery img" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-12 col-md-4">
+                    <figure>
+                        <img src="https://source.unsplash.com/random/?Gallery/" alt="gallery img" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-12 col-md-4">
+                    <figure>
+                        <img src="https://source.unsplash.com/random/?Gallery/" alt="gallery img" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-12 col-md-4">
+                    <figure>
+                        <img src="https://source.unsplash.com/random/?Gallery/" alt="gallery img" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-12 col-md-4">
+                    <figure>
+                        <img src="https://source.unsplash.com/random/?Gallery/" alt="gallery img" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-12 col-md-4">
+                    <figure>
+                        <img src="https://source.unsplash.com/random/?Gallery/" alt="gallery img" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-12 col-md-4">
+                    <figure>
+                        <img src="https://source.unsplash.com/random/?Gallery/" alt="gallery img" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-12 col-md-4">
+                    <figure>
+                        <img src="https://source.unsplash.com/random/?Gallery/" alt="gallery img" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-12 col-md-4">
+                    <figure>
+                        <img src="https://source.unsplash.com/random/?Gallery/" alt="gallery img" class="img-fluid">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery section end  -->
+    <!-- offer section start  -->
+
+    <section class="">
+        <div class="container-fluid bg-success my-5 py-5">
+            <div class="row">
+                <div class="col-12 text-center text-white">
+                    <h1 class="mb-5">Check-Out Our Offers!</h1>
+                    <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ullam quod atque.</p>
+                    <a href="#" target="_blank"><button type="button"
+                            class="btn btn-outline-info mb-1 text-white">&nbsp;<svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right"
+                                viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z" />
+                                <path fill-rule="evenodd"
+                                    d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
+                            </svg> &nbsp; Check Out </button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- offer section end  -->
+    <!-- contact us start  -->
+    <section class="main_heading py-5 bg-light ">
+        <div class="container">
+            <div class="my-5 text-center">
+                <h2 class=" display-4">Please Fill Up !</h2>
+                <hr class="w-25 mx-auto" />
+                <p>In a short-time,we contact you.</p>
+            </div>
+            <div class="w-50 mx-auto">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput0" class="form-label">Name:</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput0" autocomplete="on"
+                            required placeholder="enter your name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address:</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" autocomplete="on"
+                            required placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput2" class="form-label">Mobile No:</label>
+                        <input type="tel" class="form-control" id="exampleFormControlInput2" autocomplete="on" required
+                            placeholder="xxxxxxxxxx">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label pe-3">Gender:</label>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                value="option1">
+                            <label class="form-check-label" for="inlineRadio1">male</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                value="option2">
+                            <label class="form-check-label" for="inlineRadio2">female</label>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" required rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- contact us end  -->
+    <!-- footer start  -->
+    <footer class="bg-success py-3 text-center text-white">
+        <p>&copy; all copyright reserved by xyz...</p>
+    </footer>
+    <!-- footer end  -->
+
+
+
+
+
+
+
+    <!-- javascript start -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+
+    <!-- javascript end  -->
+</body>
+
+</html>
