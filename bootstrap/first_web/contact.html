@@ -12,6 +12,17 @@
 </head>
 
 <body>
+    <div class="preloader">
+        <div class="spinner-grow text-danger" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-warning" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-success" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
 
     <!-- fixed navbar start -->
 
@@ -71,8 +82,8 @@
                 <form>
                     <div class="mb-3">
                         <label for="exampleFormControlInput0" class="form-label">Name:</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput0" autocomplete="on"
-                            required placeholder="enter your name">
+                        <input type="text" class="form-control" id="exampleFormControlInput0" autocomplete="on" required
+                            placeholder="enter your name">
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Email address:</label>
@@ -123,10 +134,7 @@
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
         crossorigin="anonymous"></script>
 
-    <script>
-        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
-    </script>
+    <script src="./js/index.js"></script>
 
     <!-- javascript end  -->
 

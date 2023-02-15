@@ -13,9 +13,20 @@
 
 <body>
 
+    <div class="preloader">
+        <div class="spinner-grow text-danger" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-warning" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-success" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
     <!-- fixed navbar start -->
 
-    <nav class="navbar fixed-top navbar-expand-lg bg-success text-white">
+    <nav class="navbar fixed-top navbar-expand-lg text-bg-dark ">
         <div class="container-fluid">
             <a class="navbar-brand ms-5" href="index.html">Navbar</a>
             <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
@@ -26,17 +37,17 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">About Us</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Services
                         </a>
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu text-bg-success">
                             <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
                             <li>
@@ -61,7 +72,7 @@
     <!-- Carousel start  -->
 
     <header>
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -71,21 +82,21 @@
                     aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item active " data-bs-interval="5000">
                     <img src="https://source.unsplash.com/random/?Nature/" class="d-block w-100 h-100 " alt="images">
                     <div class="carousel-caption d-md-block">
                         <h5>First slide label</h5>
                         <p>Some representative placeholder content for the first slide.</p>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="5000">
                     <img src="https://source.unsplash.com/random/?Animal/" class="d-block w-100 h-100" alt="images">
                     <div class="carousel-caption d-md-block">
                         <h5>Second slide label</h5>
                         <p>Some representative placeholder content for the second slide.</p>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="5000">
                     <img src="https://source.unsplash.com/random/?Vehicle/" class="d-block w-100 h-100" alt="images">
                     <div class="carousel-caption d-md-block">
                         <h5>Third slide label</h5>
@@ -331,8 +342,8 @@
                 <form>
                     <div class="mb-3">
                         <label for="exampleFormControlInput0" class="form-label">Name:</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput0" autocomplete="on"
-                            required placeholder="enter your name">
+                        <input type="text" class="form-control" id="exampleFormControlInput0" autocomplete="on" required
+                            placeholder="enter your name">
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Email address:</label>
@@ -368,7 +379,7 @@
     </section>
     <!-- contact us end  -->
     <!-- footer start  -->
-    <footer class="bg-success py-3 text-center text-white">
+    <footer class="bg-dark py-3 text-center text-white">
         <p>&copy; all copyright reserved by xyz...</p>
     </footer>
     <!-- footer end  -->
@@ -380,6 +391,7 @@
 
 
     <!-- javascript start -->
+    <script src="./js/index.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
@@ -388,10 +400,6 @@
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
         crossorigin="anonymous"></script>
 
-    <script>
-        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
-    </script>
 
     <!-- javascript end  -->
 </body>

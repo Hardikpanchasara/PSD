@@ -12,7 +12,17 @@
 </head>
 
 <body>
-
+    <div class="preloader">
+        <div class="spinner-grow text-danger" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-warning" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow text-success" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
     <!-- fixed navbar start -->
 
     <nav class="navbar fixed-top navbar-expand-lg bg-success text-white">
@@ -118,7 +128,8 @@
             </ul>
         </nav>
         <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
-            data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0" style="height: 30vh; overflow-y: scroll;">
+            data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0"
+            style="height: 30vh; overflow-y: scroll;">
             <h4 id="scrollspyHeading1">First heading</h4>
             <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
                 appropriate navigation link is highlighted. It's repeated throughout the component example. We keep
@@ -157,10 +168,7 @@
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
         crossorigin="anonymous"></script>
 
-    <script>
-        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
-    </script>
+    <script src="./js/index.js"></script>
 
     <!-- javascript end  -->
 
